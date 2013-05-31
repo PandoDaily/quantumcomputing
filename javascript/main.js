@@ -260,7 +260,7 @@ scrollCheck = function () {
 				});
 				}
 			//$("#scrollTop").html(title.css('bottom'));
-		
+		/*
 		if(!atriggered[i]) {
 			if((sl < htop) && sl > (htop - audiopre)) {
 			
@@ -277,7 +277,7 @@ scrollCheck = function () {
 				
 				}
 			}
-		
+		*/
 		}
 	
 	if(sl < reseth) {
@@ -735,7 +735,7 @@ $(window).scroll( function () {
 */
 
 ///////////////////////////////////////AUDIO
-
+/*
 
 aextension = '.ogg';
 audio_dir = 'audio/';
@@ -885,7 +885,7 @@ pulseMute = function () {
 getAudioType();
 createAudio();
 
-
+*/
 
 
 $(window).scroll(scrollCheck);
